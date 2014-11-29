@@ -18,5 +18,10 @@
 	],
 	"require" : {
 		"symfony/framework-bundle" : "~2"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Olix\\InstallerScriptComposer" : ""
+		}
 	}
 }
