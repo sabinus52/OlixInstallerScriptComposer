@@ -1,0 +1,22 @@
+{
+	"name" : "sabinus52/olix-installer-script-composer",
+	"type" : "library",
+	"description" : "Installe / Met à jour les packages Olix via un script depuis Composer",
+	"keywords" : [
+		"olix",
+		"assets",
+		"composer",
+		"installer",
+		"symfony"
+	],
+	"homepage" : "https://github.com/sabinus52/OlixInstallerScriptComposer.git",
+	"license" : "GPL-2.0",
+	"authors" : [{
+			"name" : "Olivier",
+			"email" : "sabinus52@gmail.com"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : "~2"
+	}
+}
