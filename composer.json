@@ -1,6 +1,6 @@
 {
 	"name" : "sabinus52/olix-installer-script-composer",
-	"type" : "library",
+	"type" : "symfony-bundle",
 	"description" : "Installe / Met à jour les packages Olix via un script depuis Composer",
 	"keywords" : [
 		"olix",

@@ -30,7 +30,7 @@ class PackageTest extends \PHPUnit_Framework_TestCase {
 	
 		$this->assertEquals($expected, $result);
 	}
-	
+
 	public function providerGetComponentName ()
 	{
 		$tests = array();
@@ -53,4 +53,5 @@ class PackageTest extends \PHPUnit_Framework_TestCase {
 		
 		return $tests;
 	}
+
 }

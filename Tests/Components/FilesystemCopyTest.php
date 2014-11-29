@@ -40,7 +40,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 
 
 	/**
-	 * Test des copies des fichiers
+	 * Tests the copyPackageFiles function.
 	 *
 	 * @dataProvider providerCopyPackageFiles
 	 */
@@ -56,6 +56,8 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 
 	public function providerCopyPackageFiles ()
 	{
+		$tests = array();
+		
 		$package = array(
 			'name' => 'sabinus52/onefile',
 			'version' => '1.2.3',
@@ -71,7 +73,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 		$tests[] = array($package, array(
 				'css/test1.css',
 		));
-
+		
 		$package = array(
 			'name' => 'sabinus52/allcss',
 			'version' => '1.2.3',
@@ -90,7 +92,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 				'css/test2.css',
 				'test.css',
 		));
-
+		
 		$package = array(
 			'name' => 'sabinus52/allcss',
 			'version' => '1.2.3',
@@ -108,7 +110,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 				'css/test1.css',
 				'css/test2.css'
 		));
-
+		
 		$package = array(
 			'name' => 'sabinus52/cssandjs',
 			'version' => '1.2.3',
@@ -128,7 +130,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 				'js/test1.js',
 				'js/test2.js'
 		));
-
+		
 		$package = array(
 			'name' => 'sabinus52/all',
 			'version' => '1.2.3',
@@ -148,7 +150,7 @@ class FilesystemCopyTest extends \PHPUnit_Framework_TestCase
 				'test.js',
 				'test.png',
 		));
-
+		
 		return $tests;
 	}
 
